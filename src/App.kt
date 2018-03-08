@@ -1,3 +1,4 @@
+import pattern.design.decorator.*
 import pattern.design.observer.*
 import pattern.design.strategy.*
 
@@ -42,6 +43,17 @@ fun main(args: Array<String>) {
     println()
     println("Decorator pattern")
     println("===================")
+
+    var naruto: Hero = ProtagonistHero()
+    naruto = MoralBoostUp(naruto)
+    naruto = PassionBoostUp(naruto)
+
+    var sasuke: Hero = AntagonistHero()
+    sasuke = MoralBoostUp(sasuke)
+
+    println("Two heroes ready to fight")
+    println("Naruto power is ${naruto.getPower()} and blood is ${naruto.getBlood()}")
+    println("Sasuke power is ${sasuke.getPower()} and blood is ${sasuke.getBlood()}")
 
     // kotlin style
     ronaldo.doing().run {
