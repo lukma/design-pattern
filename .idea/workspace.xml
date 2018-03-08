@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4db8248-63a2-458a-bdbc-02e148a7d34c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pattern/design/decorator/AntagonistHero.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pattern/design/decorator/Hero.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pattern/design/decorator/HeroUpgrade.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pattern/design/decorator/MoralBoostUp.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pattern/design/decorator/PassionBoostUp.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pattern/design/decorator/ProtagonistHero.kt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-design-pattern/pattern/design/observer/JuniorPlayerImpl.class" afterPath="$PROJECT_DIR$/out/production/learn-design-pattern/pattern/design/observer/JuniorPlayerImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-design-pattern/pattern/design/observer/SeniorPlayerImpl.class" afterPath="$PROJECT_DIR$/out/production/learn-design-pattern/pattern/design/observer/SeniorPlayerImpl.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-design-pattern/AppKt.class" afterPath="$PROJECT_DIR$/out/production/learn-design-pattern/AppKt.class" />
       <change beforePath="$PROJECT_DIR$/src/App.kt" afterPath="$PROJECT_DIR$/src/App.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,8 +19,8 @@
       <file leaf-file-name="App.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="28" />
+            <state relative-caret-position="563">
+              <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
               <folding>
                 <element signature="e#0#99#0" expanded="true" />
               </folding>
@@ -404,6 +397,14 @@
       <option name="presentableId" value="Default" />
       <updated>1518076659950</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add decorator pattern">
+      <created>1520490306223</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1520490306224</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -440,6 +441,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add decorator pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add decorator pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -669,8 +674,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="28" />
+        <state relative-caret-position="563">
+          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
           <folding>
             <element signature="e#0#99#0" expanded="true" />
           </folding>

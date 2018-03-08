@@ -45,18 +45,31 @@ fun main(args: Array<String>) {
     println("===================")
 
     var naruto: Hero = ProtagonistHero()
+    println("Naruto current power is ${naruto.getPower()} and blood is ${naruto.getBlood()}")
     naruto = MoralBoostUp(naruto)
+    println(naruto.desc())
+    println("Naruto current power is ${naruto.getPower()} and blood is ${naruto.getBlood()}")
     naruto = PassionBoostUp(naruto)
+    println(naruto.desc())
+    println("Naruto current power is ${naruto.getPower()} and blood is ${naruto.getBlood()}")
+
+    println()
 
     var sasuke: Hero = AntagonistHero()
+    println(sasuke.desc())
+    println("Sasuke current power is ${sasuke.getPower()} and blood is ${sasuke.getBlood()}")
     sasuke = MoralBoostUp(sasuke)
+    println(sasuke.desc())
+    println("Sasuke current power is ${sasuke.getPower()} and blood is ${sasuke.getBlood()}")
+
+    println()
 
     println("Two heroes ready to fight")
     println("Naruto power is ${naruto.getPower()} and blood is ${naruto.getBlood()}")
     println("Sasuke power is ${sasuke.getPower()} and blood is ${sasuke.getBlood()}")
 
     // kotlin style
-    ronaldo.doing().run {
-        println("additional skill is mentoring")
-    }
+//    ronaldo.doing().run {
+//        println("additional skill is mentoring")
+//    }
 }
