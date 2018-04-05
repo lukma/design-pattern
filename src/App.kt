@@ -1,15 +1,25 @@
+import kotlinx.coroutines.experimental.async
+import pattern.design.command.command.OpenMongoDB
+import pattern.design.command.command.OpenMySql
+import pattern.design.command.command.OpenRawFile
+import pattern.design.command.invoker.DatabaseInvoker
+import pattern.design.command.receiver.MongoDB
+import pattern.design.command.receiver.MySql
+import pattern.design.command.receiver.RawFile
 import pattern.design.decorator.*
 import pattern.design.factory.factory.store.SouthAmericanStore
 import pattern.design.factory.factory.store.UefaStore
 import pattern.design.factory.simplefactory.store.FifaStore
 import pattern.design.observer.*
-import pattern.design.singleton.GodSingleton
+import pattern.design.singleton.SaiyaSingleton
+import pattern.design.singleton.SaiyaSynchronizedSingleton
+import pattern.design.singleton.SaiyaVolatileSingleton
 import pattern.design.strategy.*
 import java.util.*
 
 fun main(args: Array<String>) {
     println("Module")
-    val modules = mutableListOf("Strategy", "Observer", "Decorator", "Factory", "Singleton")
+    val modules = mutableListOf("Strategy", "Observer", "Decorator", "Factory", "Singleton", "Command")
 
     var index = 1
     for (module in modules) {
@@ -177,15 +187,73 @@ fun main(args: Array<String>) {
             println()
             println("Factory pattern - Simple")
             println("===================")
-            val god = GodSingleton.newInstance()
-            god!!.doing.add("Create athena")
-            god.print()
-            val god2 = GodSingleton.newInstance()
-            god2!!.doing.add("Create tartaros")
-            god2.print()
-            val god3 = GodSingleton.newInstance()
-            god3!!.doing.add("Walk to sky")
-            god3.print()
+            val goku1 = SaiyaSingleton.newInstance()
+            goku1!!.doing.add("Training")
+            goku1.print()
+            val goku2 = SaiyaSingleton.newInstance()
+            goku2!!.doing.add("Fight")
+            goku2.print()
+            val goku3 = SaiyaSingleton.newInstance()
+            goku3!!.doing.add("Die")
+            goku3.print()
+
+            println("Factory pattern - Synchronized")
+            println("===================")
+
+            var bejita1: SaiyaSynchronizedSingleton? = null
+            var bejita2: SaiyaSynchronizedSingleton? = null
+            var bejita3: SaiyaSynchronizedSingleton? = null
+
+            async {
+                bejita1 = SaiyaSynchronizedSingleton.newInstance()
+                bejita2 = SaiyaSynchronizedSingleton.newInstance()
+                bejita3 = SaiyaSynchronizedSingleton.newInstance()
+            }
+
+            Thread.sleep(2000L)
+
+            bejita1!!.doing.add("Training")
+            bejita2!!.doing.add("Fight")
+            bejita3!!.doing.add("Die")
+
+            bejita1!!.print()
+            bejita2!!.print()
+            bejita3!!.print()
+
+            println("Factory pattern - Volatile")
+            println("===================")
+
+            var gohan1: SaiyaVolatileSingleton? = null
+            var gohan2: SaiyaVolatileSingleton? = null
+            var gohan3: SaiyaVolatileSingleton? = null
+
+            async {
+                gohan1 = SaiyaVolatileSingleton.newInstance()
+                gohan2 = SaiyaVolatileSingleton.newInstance()
+                gohan3 = SaiyaVolatileSingleton.newInstance()
+            }
+
+            Thread.sleep(2000L)
+
+            gohan1!!.doing.add("Training")
+            gohan2!!.doing.add("Fight")
+            gohan3!!.doing.add("Die")
+
+            gohan1!!.print()
+            gohan2!!.print()
+            gohan3!!.print()
+        }
+        6 -> {
+            val invoker = DatabaseInvoker()
+
+            invoker.setCommand(OpenMongoDB(MongoDB()))
+            invoker.open()
+
+            invoker.setCommand(OpenMySql(MySql()))
+            invoker.open()
+
+            invoker.setCommand(OpenRawFile(RawFile()))
+            invoker.open()
         }
     }
 }
