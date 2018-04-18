@@ -17,6 +17,11 @@ class SaiyaVolatileSingleton private constructor() {
 
     val doing = arrayListOf<String>()
 
+    fun addDoing(whatDo: String): SaiyaVolatileSingleton? {
+        doing.add(whatDo)
+        return SaiyaVolatileSingleton.newInstance()
+    }
+
     fun print() {
         println("===================")
         println("What saiya volatile doing:")

@@ -1,4 +1,4 @@
-import kotlinx.coroutines.experimental.async
+import kotlinx.coroutines.experimental.launch
 import pattern.design.command.command.OpenMongoDB
 import pattern.design.command.command.OpenMySql
 import pattern.design.command.command.OpenRawFile
@@ -200,48 +200,26 @@ fun main(args: Array<String>) {
             println("Factory pattern - Synchronized")
             println("===================")
 
-            var bejita1: SaiyaSynchronizedSingleton? = null
-            var bejita2: SaiyaSynchronizedSingleton? = null
-            var bejita3: SaiyaSynchronizedSingleton? = null
-
-            async {
-                bejita1 = SaiyaSynchronizedSingleton.newInstance()
-                bejita2 = SaiyaSynchronizedSingleton.newInstance()
-                bejita3 = SaiyaSynchronizedSingleton.newInstance()
+            launch {
+                SaiyaSynchronizedSingleton.newInstance()!!.addDoing("Training")!!.print()
+            }
+            launch {
+                SaiyaSynchronizedSingleton.newInstance()!!.addDoing("Fight")!!.print()
             }
 
             Thread.sleep(2000L)
-
-            bejita1!!.doing.add("Training")
-            bejita2!!.doing.add("Fight")
-            bejita3!!.doing.add("Die")
-
-            bejita1!!.print()
-            bejita2!!.print()
-            bejita3!!.print()
 
             println("Factory pattern - Volatile")
             println("===================")
 
-            var gohan1: SaiyaVolatileSingleton? = null
-            var gohan2: SaiyaVolatileSingleton? = null
-            var gohan3: SaiyaVolatileSingleton? = null
-
-            async {
-                gohan1 = SaiyaVolatileSingleton.newInstance()
-                gohan2 = SaiyaVolatileSingleton.newInstance()
-                gohan3 = SaiyaVolatileSingleton.newInstance()
+            launch {
+                SaiyaVolatileSingleton.newInstance()!!.addDoing("Training")!!.print()
+            }
+            launch {
+                SaiyaVolatileSingleton.newInstance()!!.addDoing("Fight")!!.print()
             }
 
             Thread.sleep(2000L)
-
-            gohan1!!.doing.add("Training")
-            gohan2!!.doing.add("Fight")
-            gohan3!!.doing.add("Die")
-
-            gohan1!!.print()
-            gohan2!!.print()
-            gohan3!!.print()
         }
         6 -> {
             val invoker = DatabaseInvoker()
