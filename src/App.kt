@@ -1,4 +1,7 @@
 import kotlinx.coroutines.experimental.launch
+import pattern.design.adapter.FighterImpl
+import pattern.design.adapter.SamuraiAdapter
+import pattern.design.adapter.SamuraiImpl
 import pattern.design.command.command.OpenMongoDB
 import pattern.design.command.command.OpenMySql
 import pattern.design.command.command.OpenRawFile
@@ -19,7 +22,14 @@ import java.util.*
 
 fun main(args: Array<String>) {
     println("Module")
-    val modules = mutableListOf("Strategy", "Observer", "Decorator", "Factory", "Singleton", "Command")
+    val modules = mutableListOf(
+            "Strategy",
+            "Observer",
+            "Decorator",
+            "Factory",
+            "Singleton",
+            "Command",
+            "Adapter")
 
     var index = 1
     for (module in modules) {
@@ -222,6 +232,11 @@ fun main(args: Array<String>) {
             Thread.sleep(2000L)
         }
         6 -> {
+            println()
+            println()
+            println("Command pattern - Simple")
+            println("===================")
+
             val invoker = DatabaseInvoker()
 
             invoker.setCommand(OpenMongoDB(MongoDB()))
@@ -232,6 +247,24 @@ fun main(args: Array<String>) {
 
             invoker.setCommand(OpenRawFile(RawFile()))
             invoker.open()
+        }
+        7 -> {
+            println()
+            println()
+            println("Adapter pattern - Simple")
+            println("===================")
+
+            val bob = FighterImpl()
+            println("What Bob do...")
+            bob.hit()
+            bob.defend()
+
+            println()
+
+            val john = SamuraiAdapter(SamuraiImpl())
+            println("What John do...")
+            john.hit()
+            john.defend()
         }
     }
 }
