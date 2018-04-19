@@ -1,7 +1,7 @@
 import kotlinx.coroutines.experimental.launch
-import pattern.design.adapter.simple.FighterImpl
-import pattern.design.adapter.simple.SamuraiAdapter
-import pattern.design.adapter.simple.SamuraiImpl
+import pattern.design.adaptive.adapter.FighterImpl
+import pattern.design.adaptive.adapter.SamuraiAdapter
+import pattern.design.adaptive.adapter.SamuraiImpl
 import pattern.design.command.command.InstallApache
 import pattern.design.command.command.InstallNodeJs
 import pattern.design.command.command.InstallFfmpeg
@@ -195,7 +195,7 @@ fun main(args: Array<String>) {
         5 -> {
             println()
             println()
-            println("Factory pattern - Simple")
+            println("Singleton pattern - Simple")
             println("===================")
             val goku1 = SaiyaSingleton.newInstance()
             goku1!!.doing.add("Training")
@@ -207,7 +207,7 @@ fun main(args: Array<String>) {
             goku3!!.doing.add("Die")
             goku3.print()
 
-            println("Factory pattern - Synchronized")
+            println("Singleton pattern - Synchronized")
             println("===================")
 
             launch {
@@ -219,7 +219,7 @@ fun main(args: Array<String>) {
 
             Thread.sleep(2000L)
 
-            println("Factory pattern - Volatile")
+            println("Singleton pattern - Volatile")
             println("===================")
 
             launch {
@@ -251,7 +251,7 @@ fun main(args: Array<String>) {
         7 -> {
             println()
             println()
-            println("Adapter pattern - Simple")
+            println("Adaptive pattern - Adapter")
             println("===================")
 
             val bob = FighterImpl()
@@ -268,7 +268,7 @@ fun main(args: Array<String>) {
 
             println()
             println()
-            println("Adapter pattern - Facade")
+            println("Adaptive pattern - Facade")
             println("===================")
         }
     }

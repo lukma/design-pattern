@@ -1,4 +1,4 @@
-package pattern.design.adapter.simple
+package pattern.design.adaptive.adapter
 
 class SamuraiImpl : Samurai {
     override fun cut() {

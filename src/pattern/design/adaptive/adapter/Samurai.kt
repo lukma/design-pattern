@@ -1,4 +1,4 @@
-package pattern.design.adapter.simple
+package pattern.design.adaptive.adapter
 
 interface Samurai {
     fun cut()

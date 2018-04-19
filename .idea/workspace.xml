@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4db8248-63a2-458a-bdbc-02e148a7d34c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pattern/design/adapter/simple/Fighter.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pattern/design/adapter/simple/FighterImpl.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pattern/design/adapter/simple/Samurai.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pattern/design/adapter/simple/SamuraiAdapter.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pattern/design/adapter/simple/SamuraiImpl.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pattern/design/command/command/InstallApache.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pattern/design/command/receiver/Apache.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pattern/design/command/receiver/FFMpeg.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/pattern/design/adaptive/facade/Docker.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/pattern/design/adaptive/facade/MongoDB.kt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/App.kt" afterPath="$PROJECT_DIR$/src/App.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/adapter/Fighter.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/adapter/FighterImpl.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/adapter/Samurai.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/adapter/SamuraiAdapter.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/adapter/SamuraiImpl.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/command/OpenMongoDB.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/command/OpenMySql.kt" afterPath="$PROJECT_DIR$/src/pattern/design/command/command/InstallNodeJs.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/command/OpenRawFile.kt" afterPath="$PROJECT_DIR$/src/pattern/design/command/command/InstallFfmpeg.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/invoker/DatabaseInvoker.kt" afterPath="$PROJECT_DIR$/src/pattern/design/command/invoker/ApplicationInvoker.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/receiver/MongoDB.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/receiver/MySql.kt" afterPath="$PROJECT_DIR$/src/pattern/design/command/receiver/NodeJs.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/receiver/RawFile.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/adapter/simple/Fighter.kt" afterPath="$PROJECT_DIR$/src/pattern/design/adaptive/adapter/Fighter.kt" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/adapter/simple/FighterImpl.kt" afterPath="$PROJECT_DIR$/src/pattern/design/adaptive/adapter/FighterImpl.kt" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/adapter/simple/Samurai.kt" afterPath="$PROJECT_DIR$/src/pattern/design/adaptive/adapter/Samurai.kt" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/adapter/simple/SamuraiAdapter.kt" afterPath="$PROJECT_DIR$/src/pattern/design/adaptive/adapter/SamuraiAdapter.kt" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/adapter/simple/SamuraiImpl.kt" afterPath="$PROJECT_DIR$/src/pattern/design/adaptive/adapter/SamuraiImpl.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +25,41 @@
       <file leaf-file-name="App.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="242" column="27" lean-forward="false" selection-start-line="242" selection-start-column="27" selection-end-line="242" selection-end-column="27" />
+            <state relative-caret-position="365">
+              <caret line="247" column="37" lean-forward="true" selection-start-line="247" selection-start-column="37" selection-end-line="247" selection-end-column="37" />
               <folding>
-                <element signature="e#0#1003#0" expanded="true" />
+                <element signature="e#0#1009#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Apache.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pattern/design/command/receiver/Apache.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FFMpeg.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pattern/design/command/receiver/FFMpeg.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstallFfmpeg.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pattern/design/command/command/InstallFfmpeg.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,31 +74,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InstallFfmpeg.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pattern/design/command/command/InstallFfmpeg.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FFMpeg.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pattern/design/command/receiver/FFMpeg.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationInvoker.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ApplicationInvoker.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pattern/design/command/invoker/ApplicationInvoker.kt">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstallNodeJs.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pattern/design/command/command/InstallNodeJs.kt">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -109,9 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/product/club/FootballClub.kt" />
-        <option value="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/store/UefaStore.kt" />
-        <option value="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/store/SouthAmericanStore.kt" />
         <option value="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/factory/FootballClubAbstractFactory.kt" />
         <option value="$PROJECT_DIR$/src/pattern/design/singleton/HeroSingleton.kt" />
         <option value="$PROJECT_DIR$/src/pattern/design/singleton/GodSingleton.kt" />
@@ -155,15 +159,18 @@
         <option value="$PROJECT_DIR$/src/pattern/design/command/command/InstallApache.kt" />
         <option value="$PROJECT_DIR$/src/pattern/design/command/command/InstallJDK.kt" />
         <option value="$PROJECT_DIR$/src/pattern/design/command/command/InstallNodeJs.kt" />
-        <option value="$PROJECT_DIR$/src/App.kt" />
         <option value="$PROJECT_DIR$/src/pattern/design/command/receiver/Apache.kt" />
         <option value="$PROJECT_DIR$/src/pattern/design/command/receiver/NodeJs.kt" />
         <option value="$PROJECT_DIR$/src/pattern/design/command/receiver/FFMpeg.kt" />
         <option value="$PROJECT_DIR$/src/pattern/design/command/command/InstallFfmpeg.kt" />
+        <option value="$PROJECT_DIR$/src/App.kt" />
+        <option value="$PROJECT_DIR$/src/pattern/design/adaptive/facade/Database.kt" />
+        <option value="$PROJECT_DIR$/src/pattern/design/adaptive/facade/MongoDB.kt" />
+        <option value="$PROJECT_DIR$/src/pattern/design/adaptive/facade/Docker.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -234,6 +241,29 @@
               <item name="learn-design-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="adaptive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="adaptive" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="adaptive" type="462c0819:PsiDirectoryNode" />
+              <item name="facade" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn-design-pattern" type="b2602c69:ProjectViewProjectNode" />
@@ -462,23 +492,31 @@
       <option name="project" value="LOCAL" />
       <updated>1524047486375</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add sample simple adapter">
+      <created>1524116569149</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1524116569149</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286991" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45828295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5574365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27010924" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26752505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -493,7 +531,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -515,20 +552,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pattern/design/factory/factory/product/ItalianFootballClub.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/design/factory/factory/product/EnglishFootballClub.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pattern/design/factory/factory/product/BrazilianFootballClub.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -707,31 +730,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/design/adapter/simple/SamuraiImpl.kt">
+    <entry file="file://$PROJECT_DIR$/src/pattern/design/adaptive/adapter/SamuraiImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/design/adapter/simple/SamuraiAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/design/adapter/simple/FighterImpl.kt">
+    <entry file="file://$PROJECT_DIR$/src/pattern/design/adaptive/adapter/FighterImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/design/adapter/simple/Samurai.kt">
+    <entry file="file://$PROJECT_DIR$/src/pattern/design/adaptive/adapter/Samurai.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -749,10 +768,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/design/adapter/simple/Fighter.kt">
+    <entry file="file://$PROJECT_DIR$/src/pattern/design/adaptive/adapter/Fighter.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -762,28 +782,10 @@
     <entry file="file://$PROJECT_DIR$/src/pattern/design/adapter/classadapter/Fighter.kt" />
     <entry file="file://$PROJECT_DIR$/src/pattern/design/adapter/classadapter/FighterImpl.kt" />
     <entry file="file://$PROJECT_DIR$/src/pattern/design/adapter/classadapter/FighterSamuraiAdapter.kt" />
-    <entry file="file://$PROJECT_DIR$/src/App.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="242" column="27" lean-forward="false" selection-start-line="242" selection-start-column="27" selection-end-line="242" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#1003#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pattern/design/command/receiver/NodeJs.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/design/command/command/InstallNodeJs.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -796,18 +798,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/design/command/receiver/Apache.kt">
+    <entry file="file://$PROJECT_DIR$/src/pattern/design/adaptive/adapter/SamuraiAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/design/command/invoker/ApplicationInvoker.kt">
+    <entry file="file://$PROJECT_DIR$/src/pattern/design/adaptive/facade/Docker.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pattern/design/adaptive/facade/MongoDB.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -820,18 +830,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/design/command/receiver/FFMpeg.kt">
+    <entry file="file://$PROJECT_DIR$/src/pattern/design/command/command/InstallNodeJs.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="75">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pattern/design/command/receiver/Apache.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pattern/design/command/command/InstallFfmpeg.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="60">
+          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pattern/design/command/receiver/FFMpeg.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="247" column="37" lean-forward="true" selection-start-line="247" selection-start-column="37" selection-end-line="247" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#1009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pattern/design/command/invoker/ApplicationInvoker.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding />
         </state>
       </provider>
