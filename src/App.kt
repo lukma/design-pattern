@@ -1,14 +1,14 @@
 import kotlinx.coroutines.experimental.launch
-import pattern.design.adapter.FighterImpl
-import pattern.design.adapter.SamuraiAdapter
-import pattern.design.adapter.SamuraiImpl
-import pattern.design.command.command.OpenMongoDB
-import pattern.design.command.command.OpenMySql
-import pattern.design.command.command.OpenRawFile
-import pattern.design.command.invoker.DatabaseInvoker
-import pattern.design.command.receiver.MongoDB
-import pattern.design.command.receiver.MySql
-import pattern.design.command.receiver.RawFile
+import pattern.design.adapter.simple.FighterImpl
+import pattern.design.adapter.simple.SamuraiAdapter
+import pattern.design.adapter.simple.SamuraiImpl
+import pattern.design.command.command.InstallApache
+import pattern.design.command.command.InstallNodeJs
+import pattern.design.command.command.InstallFfmpeg
+import pattern.design.command.invoker.ApplicationInvoker
+import pattern.design.command.receiver.Apache
+import pattern.design.command.receiver.NodeJs
+import pattern.design.command.receiver.FFMpeg
 import pattern.design.decorator.*
 import pattern.design.factory.factory.store.SouthAmericanStore
 import pattern.design.factory.factory.store.UefaStore
@@ -237,16 +237,16 @@ fun main(args: Array<String>) {
             println("Command pattern - Simple")
             println("===================")
 
-            val invoker = DatabaseInvoker()
+            val invoker = ApplicationInvoker()
 
-            invoker.setCommand(OpenMongoDB(MongoDB()))
-            invoker.open()
+            invoker.setCommand(InstallApache(Apache()))
+            invoker.install()
 
-            invoker.setCommand(OpenMySql(MySql()))
-            invoker.open()
+            invoker.setCommand(InstallNodeJs(NodeJs()))
+            invoker.install()
 
-            invoker.setCommand(OpenRawFile(RawFile()))
-            invoker.open()
+            invoker.setCommand(InstallFfmpeg(FFMpeg()))
+            invoker.install()
         }
         7 -> {
             println()
@@ -265,6 +265,11 @@ fun main(args: Array<String>) {
             println("What John do...")
             john.hit()
             john.defend()
+
+            println()
+            println()
+            println("Adapter pattern - Facade")
+            println("===================")
         }
     }
 }

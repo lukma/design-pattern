@@ -2,14 +2,14 @@ package pattern.design.command.invoker
 
 import pattern.design.command.command.Command
 
-class DatabaseInvoker {
+class ApplicationInvoker {
     private lateinit var command: Command
 
     fun setCommand(command: Command) {
         this.command = command
     }
 
-    fun open() {
+    fun install() {
         command.execute()
     }
 }
