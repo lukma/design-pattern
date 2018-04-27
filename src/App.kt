@@ -2,6 +2,9 @@ import kotlinx.coroutines.experimental.launch
 import pattern.design.adaptive.adapter.FighterImpl
 import pattern.design.adaptive.adapter.SamuraiAdapter
 import pattern.design.adaptive.adapter.SamuraiImpl
+import pattern.design.adaptive.facade.Docker
+import pattern.design.adaptive.facade.MongoDB
+import pattern.design.adaptive.facade.OsFacade
 import pattern.design.command.command.InstallApache
 import pattern.design.command.command.InstallNodeJs
 import pattern.design.command.command.InstallFfmpeg
@@ -29,7 +32,8 @@ fun main(args: Array<String>) {
             "Factory",
             "Singleton",
             "Command",
-            "Adapter")
+            "Adapter",
+            "Facade")
 
     var index = 1
     for (module in modules) {
@@ -270,6 +274,17 @@ fun main(args: Array<String>) {
             println()
             println("Adaptive pattern - Facade")
             println("===================")
+        }
+        8 -> {
+            println()
+            println()
+            println("Adaptive pattern - Facade")
+            println("===================")
+
+            val os = OsFacade(pattern.design.adaptive.facade.Apache(), Docker(), MongoDB())
+            os.start()
+            println("Then...")
+            os.stop()
         }
     }
 }

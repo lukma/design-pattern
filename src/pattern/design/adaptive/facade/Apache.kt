@@ -1,11 +1,11 @@
 package pattern.design.adaptive.facade
 
-class Docker {
+class Apache {
     fun start() {
-        println("Start docker...")
+        println("Start server...")
     }
 
     fun stop() {
-        println("Stop docker...")
+        println("Stop server...")
     }
 }
