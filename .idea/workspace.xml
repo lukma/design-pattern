@@ -2,12 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="d208a790-491e-4105-9505-cf6c4e315401" name="Add state pattern" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/singleton/SaiyaSingleton.kt" afterPath="" />
+    </list>
+    <list default="true" id="d4db8248-63a2-458a-bdbc-02e148a7d34c" name="Default" comment="Add gitignore">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/App.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/adapter/Fighter.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/adapter/FighterImpl.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/adapter/Samurai.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/adapter/SamuraiAdapter.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/adapter/SamuraiImpl.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/facade/Apache.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/facade/Docker.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/facade/MongoDB.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/facade/OsFacade.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/command/command/Command.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/command/command/InstallApache.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/command/command/InstallFfmpeg.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/command/command/InstallNodeJs.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/command/invoker/ApplicationInvoker.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/command/receiver/Apache.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/command/receiver/FFMpeg.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/command/receiver/NodeJs.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/decorator/AntagonistHero.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/decorator/Hero.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/decorator/HeroUpgrade.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/decorator/MoralBoostUp.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/decorator/PassionBoostUp.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/decorator/ProtagonistHero.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/factory/FootballClubAbstractFactory.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/product/academy/FootballAcademy.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/product/academy/InternationalAcademy.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/product/academy/NationalAcademy.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/product/club/BrazilianFootballClub.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/product/club/EnglishFootballClub.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/product/club/FootballClub.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/product/club/ItalianFootballClub.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/store/FifaStore.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/store/SouthAmericanStore.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/store/UefaStore.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/factory/factory/FootballClubFactory.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/factory/product/BrazilianFootballClub.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/factory/product/EnglishFootballClub.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/factory/product/FootballClub.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/factory/product/ItalianFootballClub.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/factory/store/FifaStore.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/factory/store/SouthAmericanStore.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/factory/store/UefaStore.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/simplefactory/factory/FootballClubSimpleFactory.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/simplefactory/product/EnglishFootballClub.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/simplefactory/product/FootballClub.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/simplefactory/product/ItalianFootballClub.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/simplefactory/store/FifaStore.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/iterator/EuroEnglishPlayers.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/iterator/EuroNonEnglishPlayers.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/iterator/NonEuroPlayers.kt" />
@@ -15,90 +60,95 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/iterator/PlayerIterator.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/iterator/Players.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/iterator/Team.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/observer/FootballClub.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/observer/FootballClubImpl.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/observer/JuniorPlayerImpl.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/observer/Player.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/observer/SeniorPlayerImpl.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/singleton/SaiyaSingleton.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/singleton/SaiyaSynchronizedSingleton.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/singleton/SaiyaVolatileSingleton.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/state/BalancePowerPlanState.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/state/HighPowerPlanState.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/state/LowPowerPlanState.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/state/Machine.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/state/PlanState.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/strategy/AndroidDeveloper.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/strategy/BackendDeveloper.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/strategy/Developer.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/strategy/DeveloperComponent.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/strategy/FrontendDeveloper.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/strategy/MobileEngineer.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/strategy/WebEngineer.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/template/Media.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/template/Picture.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/template/UploadMedia.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/template/UploadPicture.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/template/UploadVideo.kt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/template/Video.kt" />
-      <change beforePath="$PROJECT_DIR$/src/App.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/App.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/adapter/Fighter.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/adapter/Fighter.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/adapter/FighterImpl.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/adapter/FighterImpl.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/adapter/Samurai.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/adapter/Samurai.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/adapter/SamuraiAdapter.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/adapter/SamuraiAdapter.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/adapter/SamuraiImpl.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/adapter/SamuraiImpl.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/facade/Apache.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/facade/Apache.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/facade/Docker.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/facade/Docker.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/facade/MongoDB.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/facade/MongoDB.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/facade/OsFacade.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/adaptive/facade/OsFacade.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/command/Command.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/command/command/Command.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/command/InstallApache.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/command/command/InstallApache.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/command/InstallFfmpeg.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/command/command/InstallFfmpeg.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/command/InstallNodeJs.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/command/command/InstallNodeJs.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/invoker/ApplicationInvoker.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/command/invoker/ApplicationInvoker.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/receiver/Apache.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/command/receiver/Apache.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/receiver/FFMpeg.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/command/receiver/FFMpeg.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/receiver/NodeJs.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/command/receiver/NodeJs.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/decorator/AntagonistHero.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/decorator/AntagonistHero.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/decorator/Hero.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/decorator/Hero.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/decorator/HeroUpgrade.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/decorator/HeroUpgrade.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/decorator/MoralBoostUp.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/decorator/MoralBoostUp.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/decorator/PassionBoostUp.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/decorator/PassionBoostUp.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/decorator/ProtagonistHero.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/decorator/ProtagonistHero.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/factory/FootballClubAbstractFactory.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/factory/FootballClubAbstractFactory.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/product/academy/FootballAcademy.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/product/academy/FootballAcademy.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/product/academy/InternationalAcademy.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/product/academy/InternationalAcademy.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/product/academy/NationalAcademy.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/product/academy/NationalAcademy.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/product/club/BrazilianFootballClub.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/product/club/BrazilianFootballClub.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/product/club/EnglishFootballClub.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/product/club/EnglishFootballClub.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/product/club/FootballClub.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/product/club/FootballClub.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/product/club/ItalianFootballClub.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/product/club/ItalianFootballClub.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/store/FifaStore.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/store/FifaStore.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/store/SouthAmericanStore.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/store/SouthAmericanStore.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/store/UefaStore.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/abstractfactory/store/UefaStore.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/factory/factory/FootballClubFactory.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/factory/factory/FootballClubFactory.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/factory/product/BrazilianFootballClub.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/factory/product/BrazilianFootballClub.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/factory/product/EnglishFootballClub.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/factory/product/EnglishFootballClub.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/factory/product/FootballClub.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/factory/product/FootballClub.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/factory/product/ItalianFootballClub.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/factory/product/ItalianFootballClub.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/factory/store/FifaStore.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/factory/store/FifaStore.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/factory/store/SouthAmericanStore.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/factory/store/SouthAmericanStore.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/factory/store/UefaStore.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/factory/store/UefaStore.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/simplefactory/factory/FootballClubSimpleFactory.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/simplefactory/factory/FootballClubSimpleFactory.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/simplefactory/product/EnglishFootballClub.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/simplefactory/product/EnglishFootballClub.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/simplefactory/product/FootballClub.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/simplefactory/product/FootballClub.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/simplefactory/product/ItalianFootballClub.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/simplefactory/product/ItalianFootballClub.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/simplefactory/store/FifaStore.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/factory/simplefactory/store/FifaStore.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/observer/FootballClub.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/observer/FootballClub.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/observer/FootballClubImpl.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/observer/FootballClubImpl.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/observer/JuniorPlayerImpl.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/observer/JuniorPlayerImpl.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/observer/Player.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/observer/Player.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/observer/SeniorPlayerImpl.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/observer/SeniorPlayerImpl.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/singleton/SaiyaSingleton.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/singleton/SaiyaSynchronizedSingleton.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/singleton/SaiyaSynchronizedSingleton.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/singleton/SaiyaVolatileSingleton.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/singleton/SaiyaVolatileSingleton.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/strategy/AndroidDeveloper.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/strategy/AndroidDeveloper.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/strategy/BackendDeveloper.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/strategy/BackendDeveloper.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/strategy/Developer.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/strategy/Developer.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/strategy/DeveloperComponent.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/strategy/DeveloperComponent.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/strategy/FrontendDeveloper.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/strategy/FrontendDeveloper.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/strategy/MobileEngineer.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/strategy/MobileEngineer.kt" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/design/strategy/WebEngineer.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/pattern/design/strategy/WebEngineer.kt" />
-    </list>
-    <list default="true" id="d4db8248-63a2-458a-bdbc-02e148a7d34c" name="Default" comment="Add state pattern">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/App.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/adapter/Fighter.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/adapter/FighterImpl.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/adapter/Samurai.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/adapter/SamuraiAdapter.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/adapter/SamuraiImpl.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/facade/Apache.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/facade/Docker.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/facade/MongoDB.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/adaptive/facade/OsFacade.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/command/Command.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/command/InstallApache.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/command/InstallFfmpeg.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/command/InstallNodeJs.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/invoker/ApplicationInvoker.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/receiver/Apache.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/receiver/FFMpeg.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/command/receiver/NodeJs.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/decorator/AntagonistHero.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/decorator/Hero.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/decorator/HeroUpgrade.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/decorator/MoralBoostUp.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/decorator/PassionBoostUp.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/decorator/ProtagonistHero.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/factory/FootballClubAbstractFactory.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/product/academy/FootballAcademy.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/product/academy/InternationalAcademy.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/product/academy/NationalAcademy.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/product/club/BrazilianFootballClub.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/product/club/EnglishFootballClub.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/product/club/FootballClub.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/product/club/ItalianFootballClub.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/store/FifaStore.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/store/SouthAmericanStore.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/abstractfactory/store/UefaStore.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/factory/factory/FootballClubFactory.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/factory/product/BrazilianFootballClub.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/factory/product/EnglishFootballClub.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/factory/product/FootballClub.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/factory/product/ItalianFootballClub.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/factory/store/FifaStore.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/factory/store/SouthAmericanStore.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/factory/store/UefaStore.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/simplefactory/factory/FootballClubSimpleFactory.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/simplefactory/product/EnglishFootballClub.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/simplefactory/product/FootballClub.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/simplefactory/product/ItalianFootballClub.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/factory/simplefactory/store/FifaStore.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/observer/FootballClub.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/observer/FootballClubImpl.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/observer/JuniorPlayerImpl.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/observer/Player.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/observer/SeniorPlayerImpl.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/singleton/SaiyaSynchronizedSingleton.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/singleton/SaiyaVolatileSingleton.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/strategy/AndroidDeveloper.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/strategy/BackendDeveloper.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/strategy/Developer.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/strategy/DeveloperComponent.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/strategy/FrontendDeveloper.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/strategy/MobileEngineer.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/design/strategy/WebEngineer.kt" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -542,7 +592,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pattern/design/command/command/OpenMySql.kt" />
         <option value="$PROJECT_DIR$/src/pattern/design/command/command/OpenRawFile.kt" />
         <option value="$PROJECT_DIR$/src/pattern/design/command/receiver/AndroidSDK.kt" />
         <option value="$PROJECT_DIR$/src/pattern/design/command/receiver/Jdk.kt" />
@@ -593,6 +642,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/pattern/design/state/BalancePowerPlanState.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/App.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/pattern/design/state/HighPowerPlanState2.kt" />
       </list>
     </option>
   </component>
@@ -655,6 +705,55 @@
               <item name="com.lukma.learndesignpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-design-pattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.lukma.learndesignpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-design-pattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.lukma.learndesignpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-design-pattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.lukma.learndesignpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-design-pattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.lukma.learndesignpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-design-pattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="adaptive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.lukma.learndesignpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-design-pattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="adaptive" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.lukma.learndesignpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-design-pattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -873,7 +972,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528352529544</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add gitignore">
+      <created>1528353533663</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1528353533664</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -921,6 +1027,17 @@
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
               <option name="COLUMN_ORDER">
                 <list>
                   <option value="0" />
@@ -946,14 +1063,14 @@
     <MESSAGE value="Add sample simple adapter" />
     <MESSAGE value="Rename package adapter to adaptive" />
     <MESSAGE value="Add state pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add state pattern" />
+    <MESSAGE value="Add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pattern/design/adapter/classadapter/SamuraiImpl.kt" />
     <entry file="file://$PROJECT_DIR$/src/pattern/design/adapter/classadapter/SamuraiAdapter.kt" />
     <entry file="file://$PROJECT_DIR$/src/pattern/design/adapter/classadapter/Fighter.kt" />
     <entry file="file://$PROJECT_DIR$/src/pattern/design/adapter/classadapter/FighterImpl.kt" />
@@ -1201,6 +1318,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/pattern/design/state/HighPowerPlanState2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

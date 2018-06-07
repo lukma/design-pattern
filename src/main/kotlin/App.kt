@@ -16,11 +16,18 @@ import pattern.design.decorator.*
 import pattern.design.factory.factory.store.SouthAmericanStore
 import pattern.design.factory.factory.store.UefaStore
 import pattern.design.factory.simplefactory.store.FifaStore
+import pattern.design.iterator.*
 import pattern.design.observer.*
+import pattern.design.observer.Player
 import pattern.design.singleton.SaiyaSingleton
 import pattern.design.singleton.SaiyaSynchronizedSingleton
 import pattern.design.singleton.SaiyaVolatileSingleton
+import pattern.design.state.Machine
 import pattern.design.strategy.*
+import pattern.design.template.Picture
+import pattern.design.template.UploadPicture
+import pattern.design.template.UploadVideo
+import pattern.design.template.Video
 import java.util.*
 
 fun main(args: Array<String>) {
@@ -33,7 +40,10 @@ fun main(args: Array<String>) {
             "Singleton",
             "Command",
             "Adapter",
-            "Facade")
+            "Facade",
+            "Template",
+            "Iterator",
+            "State")
 
     var index = 1
     for (module in modules) {
@@ -201,15 +211,12 @@ fun main(args: Array<String>) {
             println()
             println("Singleton pattern - Simple")
             println("===================")
-            val goku1 = SaiyaSingleton.newInstance()
-            goku1!!.doing.add("Training")
-            goku1.print()
-            val goku2 = SaiyaSingleton.newInstance()
-            goku2!!.doing.add("Fight")
-            goku2.print()
-            val goku3 = SaiyaSingleton.newInstance()
-            goku3!!.doing.add("Die")
-            goku3.print()
+            SaiyaSingleton.doing.add("Training")
+            SaiyaSingleton.print()
+            SaiyaSingleton.doing.add("Fight")
+            SaiyaSingleton.print()
+            SaiyaSingleton.doing.add("Die")
+            SaiyaSingleton.print()
 
             println("Singleton pattern - Synchronized")
             println("===================")
@@ -269,11 +276,6 @@ fun main(args: Array<String>) {
             println("What John do...")
             john.hit()
             john.defend()
-
-            println()
-            println()
-            println("Adaptive pattern - Facade")
-            println("===================")
         }
         8 -> {
             println()
@@ -285,6 +287,80 @@ fun main(args: Array<String>) {
             os.start()
             println("Then...")
             os.stop()
+        }
+        9 -> {
+            println()
+            println()
+            println("Template method pattern - Simple")
+            println("===================")
+
+            val uploadPicture = UploadPicture()
+            uploadPicture.isDeleteLocalFile = true
+            uploadPicture.runUpload(Picture("hallo", "file://picture.png"))
+
+            println()
+
+            val uploadVideo = UploadVideo()
+            uploadVideo.runUpload(Video("hallo", "file://video.png", "file://cover.png"))
+        }
+        10 -> {
+            println()
+            println()
+            println("Iterator pattern - Simple")
+            println("===================")
+
+            val groupPlayers = hashMapOf<String, Players<*>>()
+            groupPlayers["Euro English Players"] = EuroEnglishPlayers()
+            groupPlayers["Euro Non English Players"] = EuroNonEnglishPlayers()
+            groupPlayers["Non Euro Players"] = NonEuroPlayers()
+
+            val team = Team(groupPlayers)
+            team.print()
+        }
+        11 -> {
+            println()
+            println()
+            println("State pattern")
+            println("===================")
+
+            val machine = Machine()
+            machine.charge()
+            machine.charge()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.charge()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
+            machine.process()
         }
     }
 }
