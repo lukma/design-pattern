@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.lukma.learndesignpattern.iml" filepath="$PROJECT_DIR$/.idea/modules/com.lukma.learndesignpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.lukma.learndesignpattern_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.lukma.learndesignpattern_main.iml" group="com.lukma.learndesignpattern" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.lukma.learndesignpattern_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.lukma.learndesignpattern_test.iml" group="com.lukma.learndesignpattern" />
+    </modules>
+  </component>
+</project>

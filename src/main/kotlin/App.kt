@@ -12,6 +12,8 @@ import pattern.design.command.invoker.ApplicationInvoker
 import pattern.design.command.receiver.Apache
 import pattern.design.command.receiver.NodeJs
 import pattern.design.command.receiver.FFMpeg
+import pattern.design.compound.DeviceFactory
+import pattern.design.compound.DeviceWithEcoModeFactory
 import pattern.design.decorator.*
 import pattern.design.factory.factory.store.SouthAmericanStore
 import pattern.design.factory.factory.store.UefaStore
@@ -43,7 +45,8 @@ fun main(args: Array<String>) {
             "Facade",
             "Template",
             "Iterator",
-            "State")
+            "State",
+            "Compound")
 
     var index = 1
     for (module in modules) {
@@ -361,6 +364,36 @@ fun main(args: Array<String>) {
             machine.process()
             machine.process()
             machine.process()
+        }
+        12 -> {
+            val lampBathroom = DeviceWithEcoModeFactory().createLamp()
+            val lampLivingRoom = DeviceFactory().createLamp()
+            val acBathrrom = DeviceWithEcoModeFactory().createAirConditioner()
+            val acLivingRoom = DeviceFactory().createLamp()
+
+            println("======================")
+            lampBathroom.turnOn()
+            lampBathroom.turnOff()
+            println("Status lamp Bathroom")
+            println(lampBathroom.getInfo())
+
+            println("======================")
+            acBathrrom.turnOff()
+            acBathrrom.turnOn()
+            println("Status ac Living room")
+            println(acBathrrom.getInfo())
+
+            println("======================")
+            lampLivingRoom.turnOff()
+            lampLivingRoom.turnOn()
+            println("Status lamp Living room")
+            println(lampLivingRoom.getInfo())
+
+            println("======================")
+            acLivingRoom.turnOff()
+            acLivingRoom.turnOn()
+            println("Status ac Living room")
+            println(acLivingRoom.getInfo())
         }
     }
 }
