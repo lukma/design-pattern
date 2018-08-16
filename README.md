@@ -1,4 +1,4 @@
-# Design Patterns In Kotlin
+# Design Patterns
 
 ## Table of Contents
 
