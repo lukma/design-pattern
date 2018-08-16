@@ -35,8 +35,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+            <state relative-caret-position="421">
+              <caret line="105" column="162" lean-forward="false" selection-start-line="105" selection-start-column="162" selection-end-line="105" selection-end-column="162" />
               <folding />
             </state>
           </provider>
@@ -58,6 +58,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>UnicastRemoteObject</find>
+      <find>composi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -508,25 +509,6 @@
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="learn-design-pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-design-pattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="adaptive" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-design-pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-design-pattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="adaptive" type="462c0819:PsiDirectoryNode" />
-              <item name="facade" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -896,7 +878,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534407168501</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update readme">
+      <created>1534407222699</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1534407222699</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1306,8 +1295,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        <state relative-caret-position="421">
+          <caret line="105" column="162" lean-forward="false" selection-start-line="105" selection-start-column="162" selection-end-line="105" selection-end-column="162" />
           <folding />
         </state>
       </provider>

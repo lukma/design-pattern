@@ -45,11 +45,6 @@ Define a skeleton of an algorithm in an operation, deferring some step of subcla
 
 Provide a way to access the element of an aggregate object sequentially without exposing underlying representation.
 
-[Composite](/src/main/kotlin/composite)
---------
-
-Compose object into tree structures to represent part-whole hierarchies. Composite lets clients threat individually objects and compositions of objects uniformly.
-
 [State](/src/main/kotlin/state)
 --------
 
@@ -95,11 +90,6 @@ Attach additional responsibility to an object dynamically. Decorator provide a f
 
 Encapsulate a request as an object there be letting you parameterize client with different request, queue or log request and support undoable process.
 
-[Command](/src/main/kotlin/command)
---------
-
-Encapsulate a request as an object there be letting you parameterize client with different request, queue or log request and support undoable process.
-
 [Adapter](/src/main/kotlin/adapter)
 --------
 
@@ -109,6 +99,11 @@ Converts the interface of class into another interface clients expect. Lets clas
 --------
 
 Provide a unified interface to a set of interface in s subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
+
+[Composite](/src/main/kotlin/composite)
+--------
+
+Compose object into tree structures to represent part-whole hierarchies. Composite lets clients threat individually objects and compositions of objects uniformly.
 
 [Compound](/src/main/kotlin/compound)
 --------
